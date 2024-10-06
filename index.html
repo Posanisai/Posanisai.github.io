@@ -2,29 +2,46 @@
 <html>
 	<head>
 		<title>Sai Posani</title>
+		<!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css" rel="stylesheet">
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hey, its me Sai Posani!</h1>
-				<p>Initial stage of creating webpage</p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="saichowdaryposani@gmail.com">email</a></li>
-        		<li><a href="https://github.com">github.com/hPosanisai</a></li>
-			</ul>
-		</footer>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sai Posani</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="/cv">CV</a></li>
+                <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+		<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1>Hey, it's me Sai Posani!</h1>
+            <p>Welcome to my portfolio page.</p>
+        </div>
+    </div>
+</div>
+
+		<footer class="bg-light py-4">
+    <div class="container text-center">
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="mailto:saichowdaryposani@gmail.com">Email</a></li>
+            <li class="list-inline-item"><a href="https://github.com/hPosanisai">GitHub</a></li>
+        </ul>
+    </div>
+</footer>
+
 	</body>
 </html>

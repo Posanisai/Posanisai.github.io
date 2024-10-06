@@ -1,14 +1,14 @@
 body {
-    background: linear-gradient(135deg, #f06, #f79);
-    color: #fff;
-    font-family: 'Helvetica', 'Arial', 'Sans-serif';
+    background-color: skyblue;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
     margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
+    background-color: skyblue; 
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
 nav ul li, footer ul li {
@@ -21,10 +21,11 @@ a {
 }
 a:hover {
     text-decoration: underline;
+    color: #007bff;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+h1, h2, h3 {
+    color: white; 
+    font-family: 'Times New Roman', Times, serif; 
 }
 p {
     font-size: 1.5em;

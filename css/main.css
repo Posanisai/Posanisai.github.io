@@ -1,4 +1,7 @@
 body {
+    background: linear-gradient(135deg, #f06, #f79);
+    color: #fff; /* Light text to contrast with background */
+    font-family: 'Helvetica', 'Arial', 'Sans-serif';
     margin: 60px auto;
     width: 70%;
 }

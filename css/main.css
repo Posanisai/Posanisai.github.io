@@ -1,12 +1,12 @@
 body {
-    background-color: skyblue;
+    background-color: pink sand;
     color: black;
     font-family: 'Times New Roman', Times, serif;
     margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
-    background-color: skyblue; 
+    background-color: pink sand; 
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -24,7 +24,7 @@ a:hover {
     color: #007bff;
 }
 h1, h2, h3 {
-    color: white; 
+    color: black; 
     font-family: 'Times New Roman', Times, serif; 
 }
 p {

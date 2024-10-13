@@ -1,16 +1,18 @@
 body {
-    background-color: Accent;
-    color: black;
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    margin: 60px auto;
-    width: 70%;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
 }
 nav ul, footer ul {
-    background-color: Accent; 
+    background-color: #FF5722;
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+}
+
 }
 nav ul li, footer ul li {
     display: inline;
@@ -18,7 +20,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color:  #0056b3;
 }
 a:hover {
     text-decoration: underline;
